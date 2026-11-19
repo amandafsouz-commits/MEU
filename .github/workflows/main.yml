@@ -1,0 +1,47 @@
+# Sobre atualizações para novas versões
+
+Saiba mais sobre como recursos e correções de bugs são incluídos no GitHub Enterprise Server por meio de novas versões.
+
+GitHub Enterprise Server está constantemente melhorando, com novas funcionalidades e correções de erros introduzidas por meio de recursos e versões de patch.
+
+## Lançamentos de funcionalidades
+
+Lançamentos de versões de funcionalidades incluem novas funcionalidades e atualizações de características, e normalmente ocorrem trimestralmente.
+
+Todas as versões de recursos começam com pelo menos uma versão Release Candidate.
+
+## Versões Release Candidate
+
+As versões Release candidate são as versões de recurso *propostas*, com um conjunto completo de recursos. Alguns problemas só serão encontrados pelos clientes que realmente usarem a versão.
+
+Por motivos de desempenho, estabilidade e segurança:
+
+* **Não instale uma versão Release Candidate em um ambiente de produção.** Os builds da versão Release Candidate destinam-se exclusivamente ao uso em um ambiente de teste ou de preparo.
+* **Não atualize de uma versão anterior com suporte para uma versão Release Candidate.** Em vez disso, instale uma versão Release Candidate em um novo ambiente de teste.
+* **Não atualize da versão Release Candidate para versões posteriores**, incluindo as versões com disponibilidade geral. Em vez disso, destrua o ambiente da versão Release Candidate.
+
+Ao testar um candidato de versão, por favor, forneça feedback entrando em contato com o suporte. Confira [documentação de suporte do GitHub](/pt/enterprise-server@3.19/support).
+
+Cada novo candidato de versão adiciona correções de erros para problemas encontrados em versões anteriores. Quando a versão estiver pronta para adoção generalizada, GitHub publicará uma versão estável do recurso.
+
+## Versões de patch
+
+Entre as versões de funcionalidades, você pode aproveitar as versões de patch, que:
+
+* Consistem em hot patches e correções de bugs
+* Acontecem com mais frequência do que lançamentos de funcionalidades
+* Estão em disponibilidade geral quando lançados pela primeira vez, sem versões Release Candidate
+* Normalmente requerem menos de cinco minutos de tempo de inatividade
+
+## Atualização do GitHub Enterprise Server
+
+Há duas maneiras de atualizar GitHub Enterprise Server:
+
+* Para configurar uma **instância completamente nova GitHub Enterprise Server** e configurar a instância como desejar, consulte [Configurando uma instância do GitHub Enterprise Server](/pt/enterprise-server@3.19/admin/installing-your-enterprise-server/setting-up-a-github-enterprise-server-instance) e [Configurando GitHub Enterprise](/pt/enterprise-server@3.19/admin/configuring-settings).
+* Para atualizar sua **instância existente** para uma nova versão, confira [Visão geral do processo de atualização](/pt/enterprise-server@3.19/admin/upgrading-your-instance/preparing-to-upgrade/overview-of-the-upgrade-process).
+
+## Leitura adicional
+
+* [
+  GitHub public roadmap
+  ](https://github.com/github/roadmap#github-public-roadmap) no `github/roadmap` repositório
